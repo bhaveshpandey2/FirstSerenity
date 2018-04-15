@@ -1,0 +1,5 @@
+com\gmail\tests\steps\GmailHomePageSteps.class
+com\gmail\tests\ui\GoogleSearchPage.class
+com\gmail\tests\steps\GooglePageSteps.class
+com\gmail\tests\ui\GmailHomePage.class
+com\gmail\tests\features\search\WhenLoginToGmail.class

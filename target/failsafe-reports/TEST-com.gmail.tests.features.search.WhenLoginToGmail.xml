@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gmail.tests.features.search.WhenLoginToGmail" time="25.049" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Bhavesh\newWorkspace\Serenity-tutorials\gmailFunctionality"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Bhavesh\newWorkspace\Serenity-tutorials\gmailFunctionality"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pandey&apos;s\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.3.9\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files (x86)\Mozilla Firefox\firefox-sdk\bin;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\Pandey&apos;s\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Pandey&apos;s"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Pandey&apos;s"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="shouldBeAbleToLogin" classname="com.gmail.tests.features.search.WhenLoginToGmail" time="18.294">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.gmail.tests.features.search.WhenLoginToGmail.shouldBeAbleToLogin(WhenLoginToGmail.java:31)
+</error>
+    <system-out><![CDATA[Story name for com.gmail.tests.features.search => TestTag{name='Search/When login to gmail', type='story'}
+]]></system-out>
+    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - &amp#27;[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: When login to gmail
+[main] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: shouldBeAbleToLogin
+-------------------------------------------------------------------
+[main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+Starting ChromeDriver 2.34.522940 (1a76f96f66e3ca7b8e57d503b4dd3bccfba87af1) on port 46691
+Only local connections are allowed.
+Feb 18, 2018 8:50:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+[Darkroom Processing Line] WARN net.serenitybdd.core.photography.resizing.Resizer - Could not save resized screenshot
+javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1345)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1614)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1352)
+	at net.serenitybdd.core.photography.resizing.Resizer.saveResizedScreenshotTo(Resizer.java:52)
+	at net.serenitybdd.core.photography.resizing.Resizer.process(Resizer.java:42)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.saveProcessedScreenshot(DarkroomProcessingLine.java:107)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.process(DarkroomProcessingLine.java:91)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.processNegative(DarkroomProcessingLine.java:80)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.run(DarkroomProcessingLine.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: There is not enough space on the disk
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1119)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1223)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1338)
+	... 10 more
+[Darkroom Processing Line] WARN net.serenitybdd.core.photography.resizing.Resizer - Could not save resized screenshot
+javax.imageio.IIOException: Error reading PNG image data
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1345)
+	at com.sun.imageio.plugins.png.PNGImageReader.read(PNGImageReader.java:1614)
+	at javax.imageio.ImageIO.read(ImageIO.java:1448)
+	at javax.imageio.ImageIO.read(ImageIO.java:1352)
+	at net.serenitybdd.core.photography.resizing.Resizer.saveResizedScreenshotTo(Resizer.java:52)
+	at net.serenitybdd.core.photography.resizing.Resizer.process(Resizer.java:42)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.saveProcessedScreenshot(DarkroomProcessingLine.java:107)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.process(DarkroomProcessingLine.java:91)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.processNegative(DarkroomProcessingLine.java:80)
+	at net.serenitybdd.core.photography.DarkroomProcessingLine.run(DarkroomProcessingLine.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: There is not enough space on the disk
+	at java.io.RandomAccessFile.writeBytes(Native Method)
+	at java.io.RandomAccessFile.write(RandomAccessFile.java:525)
+	at javax.imageio.stream.FileCacheImageInputStream.readUntil(FileCacheImageInputStream.java:148)
+	at javax.imageio.stream.FileCacheImageInputStream.read(FileCacheImageInputStream.java:187)
+	at com.sun.imageio.plugins.common.SubImageInputStream.read(SubImageInputStream.java:61)
+	at com.sun.imageio.plugins.common.InputStreamAdapter.read(InputStreamAdapter.java:47)
+	at java.io.SequenceInputStream.read(SequenceInputStream.java:207)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	at java.io.DataInputStream.readFully(DataInputStream.java:195)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodePass(PNGImageReader.java:1119)
+	at com.sun.imageio.plugins.png.PNGImageReader.decodeImage(PNGImageReader.java:1223)
+	at com.sun.imageio.plugins.png.PNGImageReader.readImage(PNGImageReader.java:1338)
+	... 10 more
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.gmail.tests.features.search.WhenLoginToGmail
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 25.049 sec <<< FAILURE! - in com.gmail.tests.features.search.WhenLoginToGmail
+shouldBeAbleToLogin(com.gmail.tests.features.search.WhenLoginToGmail)  Time elapsed: 18.294 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.gmail.tests.features.search.WhenLoginToGmail.shouldBeAbleToLogin(WhenLoginToGmail.java:31)
+
